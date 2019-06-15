@@ -1,0 +1,39 @@
+body {
+  padding: 20px;
+}
+
+.controls-wrapper {
+  margin-left: 270px;
+}
+
+.banner-wrapper {
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  transition: all 500ms;
+}
+
+.banner {
+  top: 0;
+  left: 0;
+}
+
+.origin {
+  height: 100px;
+  width: auto;
+
+  top: 90px;
+  left: 100px;
+  opacity: 0;
+}
+
+.image.visible {
+  left: 130px;
+  opacity: 1;
+}
+
+.image.out {
+  left: 160px;
+}
